@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Beam
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-item>
+    <ion-label position="stacked">Enter yor Beam URL here</ion-label>
+    <ion-input type="url" [(ngModel)]="beamURL" value="beamURL"></ion-input>
+  </ion-item>
+  <ion-button ion-button large full color="dark" (click)="selectBeamURL()">Save</ion-button>
+
+</ion-content>

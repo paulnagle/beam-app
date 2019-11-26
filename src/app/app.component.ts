@@ -17,8 +17,13 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
+      title: 'Settings',
+      url: '/settings',
+      icon: 'list'
+    },
+    {
+      title: 'Beam',
+      url: '/beam',
       icon: 'list'
     }
   ];
